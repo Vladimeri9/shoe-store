@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+}
+
+/* Standard way to declare that these CSS variables are available throughout the document */
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+.header{
+    padding: 120px 0 0 0;
+}
+.main-navigation {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    height: 150px;
+    
+}
+
+.nav-actions{
+    display: flex;
+    align-items: center;
+}
